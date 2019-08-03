@@ -1,4 +1,4 @@
-# react-typescript-eslint-demo
+# React + TypeScript + ESLint Example
 
 Example React project using TypeScript, ESLint and Prettier.
 
