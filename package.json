@@ -1,0 +1,46 @@
+{
+  "name": "react-typescript-eslint-demo",
+  "version": "1.0.0",
+  "description": "Just testing React + TypeScript with ESLint",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "eslint": "eslint './src/**/*.{ts,tsx}'",
+    "lint": "yarn eslint",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/html-webpack-plugin": "3.2.1",
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.8.5",
+    "@typescript-eslint/eslint-plugin": "1.13.0",
+    "@typescript-eslint/parser": "1.13.0",
+    "clean-webpack-plugin": "3.0.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.3",
+    "fork-ts-checker-webpack-plugin": "1.5.0",
+    "html-webpack-plugin": "3.2.0",
+    "prettier": "1.18.2",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.3",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.7.2"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
